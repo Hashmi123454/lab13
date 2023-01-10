@@ -20,6 +20,7 @@ public class main {
         System.out.println("array[" + index + "] = " + array[index]);
     } catch (IndexOutOfBoundsException ex) {
         System.out.println("INDEX " + ex + " is out of bounds");
+// 	    System.out.println("INDEX " + ex + " is out of bounds");
     	} 
 	}
 }
